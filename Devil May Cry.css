@@ -1,0 +1,140 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background: #111;
+    color: #fff;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background-color: #900; /* mantive do segundo CSS */
+    padding: 20px;
+    color: white;
+    margin-bottom: 20px; /* do primeiro CSS */
+}
+
+/* Caixa geral */
+.caixa {
+    padding: 20px;
+    border: 1px solid #999;
+    box-sizing: border-box;
+}
+
+/* Centralizada */
+.centralizada {
+    width: 80%; /* do segundo CSS */
+    margin: auto; /* margin auto */
+    text-align: justify; /* do segundo CSS */
+    background-color: black; /* do primeiro CSS */
+}
+
+/* Texto */
+.texto {
+    color: white;
+    margin-bottom: 10px;
+}
+
+/* FLOAT */
+.personagens-float .caixa {
+    width: 30%;
+    float: left;
+    margin: 1%;
+    background: #222;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+/* INLINE-BLOCK - Cards */
+.cards-inline {
+    margin-top: 30px;
+}
+.cards-inline .card {
+    display: inline-block;
+    width: 250px;
+    margin: 10px;
+    background: #333;
+    border-radius: 8px;
+    overflow: hidden;
+    vertical-align: top;
+}
+
+/* Imagens */
+.img-box {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+}
+.img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Info dentro dos cards */
+.info {
+    flex: 1;
+    padding: 10px; /* do segundo CSS */
+    color: black;
+    background-color: transparent;
+}
+
+/* Flexbox container */
+.container-flex {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 30px 0;
+}
+.flex-item {
+    background: #555;
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1;
+}
+
+/* Cores dos personagens */
+.Dante {
+    background-color: #4d0c0c;
+    color: white;
+    flex: 1;
+    margin: 10px;
+}
+.Vergil {
+    background-color: #130c4d;
+    color: white;
+    flex: 1;
+    margin: 10px;
+}
+.Trish {
+    background-color: #5c3b27;
+    color: white;
+    flex: 1;
+    margin: 10px;
+}
+
+/* Card flex */
+.card {
+    display: flex;
+    align-items: stretch; /* mesma altura entre imagem e texto */
+    margin-bottom: 20px;
+}
+.card img {
+    width: 150px; /* largura fixa */
+    height: auto; /* mantém proporção */
+    object-fit: cover; /* corta sem deformar */
+    display: block;
+}
