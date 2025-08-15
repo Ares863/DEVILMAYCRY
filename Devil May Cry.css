@@ -15,10 +15,10 @@ body {
 
 /* Header */
 header {
-    background-color: #900; /* mantive do segundo CSS */
+    background-color: #900; 
     padding: 20px;
     color: white;
-    margin-bottom: 20px; /* do primeiro CSS */
+    margin-bottom: 20px; 
 }
 
 /* Caixa geral */
@@ -30,10 +30,10 @@ header {
 
 /* Centralizada */
 .centralizada {
-    width: 80%; /* do segundo CSS */
-    margin: auto; /* margin auto */
-    text-align: justify; /* do segundo CSS */
-    background-color: black; /* do primeiro CSS */
+    width: 80%; 
+    margin: auto; 
+    text-align: justify; 
+    background-color: black; 
 }
 
 /* Texto */
@@ -82,7 +82,7 @@ header {
 /* Info dentro dos cards */
 .info {
     flex: 1;
-    padding: 10px; /* do segundo CSS */
+    padding: 10px; 
     color: black;
     background-color: transparent;
 }
@@ -129,12 +129,13 @@ header {
 /* Card flex */
 .card {
     display: flex;
-    align-items: stretch; /* mesma altura entre imagem e texto */
+    align-items: stretch; 
     margin-bottom: 20px;
 }
 .card img {
-    width: 150px; /* largura fixa */
-    height: auto; /* mantém proporção */
-    object-fit: cover; /* corta sem deformar */
+    width: 150px; 
+    height: auto; 
+    object-fit: cover; 
     display: block;
 }
+
